@@ -17,10 +17,10 @@ class Animal
 
 class Cavalo extends Animal
 {
-    public function Andar()
+    /*     public function Andar()
     {
         $this->Correr();
-    }
+    } */
 }
 
 $animal = new Cavalo();
