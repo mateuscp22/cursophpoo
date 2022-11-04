@@ -7,6 +7,7 @@ class Veiculo
     public $ano;
 
     private function Andar()
+    /* protected function Andar() */
     {
         echo "Andou";
     }
@@ -15,10 +16,6 @@ class Veiculo
         echo "Parou";
     }
 
-    /*     public function mostrarAcao()
-    {
-        $this->Andar();
-    } */
 }
 
 class Carro extends Veiculo
