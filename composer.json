@@ -1,0 +1,16 @@
+{
+    "name": "crusophpoo/composer",
+    "description": "Mateus CP",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Crusophpoo\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateus CP",
+            "email": "mateuscandicocp@gmail.com"
+        }
+    ]
+}

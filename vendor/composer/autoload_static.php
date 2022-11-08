@@ -6,6 +6,20 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit042fab4b600f3447554f6b0f7bf8c260
 {
+    public static $prefixLengthsPsr4 = array (
+        'C' => 
+        array (
+            'Crusophpoo\\Composer\\' => 20,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Crusophpoo\\Composer\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
@@ -13,6 +27,8 @@ class ComposerStaticInit042fab4b600f3447554f6b0f7bf8c260
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit042fab4b600f3447554f6b0f7bf8c260::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit042fab4b600f3447554f6b0f7bf8c260::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit042fab4b600f3447554f6b0f7bf8c260::$classMap;
 
         }, null, ClassLoader::class);
