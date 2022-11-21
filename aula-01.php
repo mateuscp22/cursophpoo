@@ -1,5 +1,5 @@
 <?php
-
+/* Curso PHPOO */
 class Pessoa
 {
     public $nome;
