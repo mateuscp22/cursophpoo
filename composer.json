@@ -1,18 +1,7 @@
 {
-    "name": "crusophpoo/composer",
-    "description": "Mateus CP",
     "autoload": {
         "psr-4": {
-            "Crusophpoo\\Composer\\": "src/"
+            "App\\": "App/"
         }
-    },
-    "authors": [
-        {
-            "name": "Mateus CP",
-            "email": "mateuscandicocp@gmail.com"
-        }
-    ],
-    "require-dev": {
-        "squizlabs/php_codesniffer": "*"
     }
 }
